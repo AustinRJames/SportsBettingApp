@@ -7,11 +7,11 @@ namespace MyBackend.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class PredictionsControllers : ControllerBase
+    public class PredictionsController : ControllerBase
     {
         private readonly SportsDbContext _context;
 
-        public PredictionsControllers(SportsDbContext context)
+        public PredictionsController(SportsDbContext context)
         {
             _context = context;
         }
